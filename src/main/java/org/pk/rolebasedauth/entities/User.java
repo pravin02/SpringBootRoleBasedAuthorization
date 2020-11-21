@@ -9,7 +9,6 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
-import javax.persistence.Column;
 
 import java.io.Serializable;
 
@@ -25,13 +24,11 @@ public class User implements Serializable {
     @Id
     @GeneratedValue
     private int userId;
-    @Column
     private String username;
-    @Column
+    private String password;
     private String firstName;
-    @Column
     private String lastName;
-    @Column
     private String roles;
+    private boolean isActive;
 
 }
