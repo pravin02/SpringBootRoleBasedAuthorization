@@ -1,4 +1,4 @@
-package org.pk.rolebasedauth.RoleBasedAuthorization;
+package org.pk.rolebasedauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
